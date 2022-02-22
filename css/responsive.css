@@ -1,0 +1,423 @@
+
+/* X-Small devices (portrait phones, less than 576px)  */
+@media (max-width: 575.98px){
+    /*menu part start*/
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        background: #ffff;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+      }
+      .navbar-nav {
+        background: #000;
+    }
+    /*menu part end*/
+    /* banner part start*/
+    .banner-text {
+        padding: 140px 0px;
+    } 
+    .banner-text p {
+	padding: 60px 80px 50px 80px;
+    }
+    .banner-text h2 {
+	font-size: 22px;
+    }
+    /* banner part end*/
+    /* About part start*/
+    .about-text h2 {
+        text-align: center;
+    }
+    .about-text p {
+        text-align: justify;
+    }
+    .about-img{
+        padding-top: 110px !important;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0px;
+    }
+    /* About part end*/
+    /* Vedio part start */
+    #vedio-part {
+        padding: 120px 0px;
+    }
+    /* Vedio part end */
+    /* service part start */
+    .service-text {
+        padding-top: 30px;
+    }
+    /* service part end */
+    /* team part start */
+    #team-part {
+        padding: 50px 0px;
+    }
+    .team--text-buttom a {
+        display: inline-block;
+        width: 90%;
+        text-align: center;
+    }
+    /* team part end */
+    /* project part start */
+    .project-left-part {
+        padding-bottom: 0px;
+    }
+    .project-bottom a {
+        width: 100%;
+    }
+    /* project part end */
+    /* team two part start */
+    .team-arrow-left{
+        display: none;
+    }
+    .team-arrow-right{
+        display: none; 
+    }
+    .team-slider-text p {
+        padding: 45px 80px 50px 80px;
+    }
+    .slider-img{
+        width: 380px;
+        }
+    /* team two part end */
+    /* contact part start */
+    #contact{
+	    padding: 40px 0px;
+    }
+    .contact-left h3 {
+        text-align: center;
+    }
+    .contact-right h3 {
+	    padding-bottom: 30px;
+	    padding-top: 20px;
+	    text-align: center;
+    }
+    .contact-left a {
+	    width: 100%;
+	    text-align: center;
+    }
+    /* contact part end */
+    /* Footer part start */
+    #footer{
+	    padding: 50px 0px;
+    }
+    .footer-center{
+        text-align: center;
+    }
+    .footer-top-left p {
+	    padding: 0px 70px 0px 70px;
+    }
+    .footer-top-middle p {
+	    padding: 0px 70px 0px 70px;
+    }
+    .footer-bottom-center{
+        text-align: center;
+    }
+    .footer-bottom-right {
+        padding-left: 0px;
+    }
+    .footer-bottom-left ul {
+	    margin-top: 30px;
+    }
+    .footer-bottom-right p {
+	    margin-top: 20px;
+    }
+    .text-center {
+        padding-left: 0px !important;
+    }
+    .footer-top-right input {
+        margin-left: 70px !important;
+    }
+    .btn-custom {
+        margin-left: 70px !important;
+        padding: 7px 20px;
+    }
+    /* Footer part end */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*menu part start*/
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {
+        background: #000;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        background: #ffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    /*menu part end*/  
+    /*banner part start*/
+    .banner-text {
+        padding-top: 170px;
+    }
+    .banner-text h2 {
+        font-size: 28px;
+    }
+    .banner-text p {
+        padding: 60px 120px 60px 120px;
+    }
+    /*banner part end*/
+    /* About part start */
+    .about-img{
+        padding-top: 80px !important;
+    }
+    .about-text p {
+        text-align: justify;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+     /* About part end */
+
+    /* service part start*/
+    .service-text {
+        padding-top: 15px;
+    }
+     /* service part end */
+     /* team part start */
+
+     .team-slider {
+        padding: 60px;
+    }
+    .project-bottom a {
+        width: 100%;
+    }
+    #service-part {
+        padding: 40px 0px;
+    }
+    
+    /* team part end */
+    /* project part start */
+    .project-left-part {
+        padding-bottom: 0px;
+    }
+    /* project part end */
+    /*team two part start*/
+    .team--text-buttom a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    #team-two {
+        padding: 60px 0px;
+    }
+    .team-arrow-left {
+        top: 85%;
+        left: 2%;  
+    }
+    .team-arrow-right {
+        top: 85%;
+        right: 5%;   
+    }
+    .team-slider-text p {
+        padding: 45px 120px 50px 120px;
+    }
+    /*team two part end*/
+    /* Vedio part start */
+     #vedio-part {
+        padding: 150px 0px;
+    }
+     /* Vedio part end */
+
+    /* contact part start */
+    #contact{
+	    padding: 40px 0px;
+    }
+    .contact-left h3 {
+        text-align: center;
+    }
+    .contact-right h3 {
+	    padding-bottom: 30px;
+	    padding-top: 20px;
+	    text-align: center;
+    }
+    .contact-left a {
+	    width: 100%;
+	    text-align: center;
+    }
+    /* contact part end */
+    /* Footer part start */
+    #footer{
+	    padding: 50px 0px;
+    }
+    .footer-center{
+        text-align: center;
+    }
+    .footer-top-left p {
+	    padding: 0px 70px 0px 70px;
+    }
+    .footer-top-middle p {
+	    padding: 0px 70px 0px 70px;
+    }
+    .footer-bottom-center{
+        text-align: center;
+    }
+    .btn-custom {
+	    margin-left: 70px;
+    }
+    .footer-top-right input {
+	margin-left: 70px;
+    }
+    .footer-bottom-right {
+        padding-left: 0px;
+    }
+    .footer-bottom-left ul {
+	    margin-top: 30px;
+    }
+    .footer-bottom-right p {
+	    margin-top: 20px;
+    }
+    .text-center {
+        padding-left: 0px !important;
+    }
+    /*Footer part end */
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*menu part start*/
+    .navbar-light .navbar-nav .nav-link {
+      text-align: center;
+    }
+    .navbar-nav {
+        background: #000;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        background: #ffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    /*menu part end*/
+    /*banner part start*/
+    .banner-text {
+        padding-top: 128px;
+        padding-bottom: 180px;
+    }
+    /*banner part end*/
+    /* About part start  */
+    #about-part {
+        padding: 50px;
+    }
+    .about-img{
+        padding-top: 50px !important;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .about-text p {
+        padding-right: 0px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    /* About part end */
+    /* Vedio part start */
+    #vedio-part {
+        padding: 120px 0px;
+    }
+    /* Vedio part end */
+    /* service part start */
+    .service-text {
+        padding-top: 20px;
+    }
+    /* service part end */
+    /* team part start */
+    .team--text-buttom a {
+        width: 100%;
+        display: inline-block;
+    }
+    /* team part end */
+    /* project part start */
+    .project-left-part {
+        padding-bottom: 0px;
+    }
+    .project-top-left h3 {
+        padding-bottom: 40px;
+    }
+    .project-bottom a {
+        margin-top: 50px;
+        width: 100%;
+    }
+    /* project part end */
+    /*team two part start*/
+    .team-arrow-left {
+        top: 82%;
+        left: 11%;  
+    }
+    .team-arrow-right {
+        top: 82%;
+        right: 13%;   
+    }
+    /*team two part end*/
+    /*contact part start*/
+    #contact {
+        padding: 7px 0px;
+    }
+    .contact-left a {
+        padding: 7px 28px;
+        margin: 20px 0px 50px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right h3 {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    /*contact part end*/
+    /* Footer part start*/
+    .footer-top-left img {
+        padding-bottom: 10px;
+    }
+    .footer-top-midle h4, .footer-top-right h4 {
+        padding-bottom: 15px;
+    }
+    .footer-top-left p {
+        padding-right: 20px;
+    }
+    .footer-top-middle p {
+        padding: 0px 12px 0px 0px;
+    }
+    .footer-top-right ul li {
+        margin-right: 2px; 
+    }
+    .footer-bottom-right {
+        padding-left: 100px;
+    }
+    .footer-bottom-left ul {
+        font-size: 14px;
+    }
+    .btn-custom {
+        padding: 5px 20px;
+        display: inline-block;
+        margin-left: 18px;
+    }
+    .footer-top-right input {
+        margin-left: 20px;
+    }
+    /*Footer part end*/
+}
